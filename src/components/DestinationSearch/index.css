@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  margin-bottom: 20px;
+}
+.search-text {
+  width: 250px;
+  height: 25px;
+  outline: none;
+  border: none;
+  background-color: #f1f5f9;
+}
+.search-icon {
+  height: 20px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
